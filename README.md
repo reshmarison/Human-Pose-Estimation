@@ -50,12 +50,14 @@ All keypoints are indexed by part id. The parts and their ids are:
 |31.|left_foot_index|
 |32.|right_foot_index|
 
-![2-Figure3-1.png](https://d3i71xaburhd42.cloudfront.net/c9bcea08fb81c041ed6d2b7576d8f0e47c1c850f/2-Figure3-1.png)
+![Topology33.png](https://images.deepai.org/converted-papers/2006.10204/Topology33.png)
+
 
 ## Pose Module 
 The model first detects the humans in the input video and then identifies the body parts, including nose, neck, eyes, shoulders elbows, wrists, hips, knees, and ankles. Each pair of associated body parts is connected by a pose line. The pose lines are assembled into full body poses for each of the human detected in the video. Here we also detect the landmarks of corresponding body parts with Id. For pose estimation, here we are using mediapipe library.
 
-![Image2.gif](https://1.bp.blogspot.com/-3y9qZTiQ-Xg/XzVsslu98RI/AAAAAAAAGXg/hpkLt16_qmoeqtdW1NBlryODgA-6Wq-RACLcBGAsYHQ/s427/Image2.gif)
+![image3.gif](https://1.bp.blogspot.com/-nsLiFUVt6S4/XzVpLWay6VI/AAAAAAAAGXI/oPyuvuQEFcASODqPdT9dqptyUvUuGlTvACLcBGAsYHQ/s427/image3.gif)
+
 
 
 
